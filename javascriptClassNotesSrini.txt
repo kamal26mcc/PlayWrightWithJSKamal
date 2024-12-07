@@ -1,0 +1,121 @@
+javascript
+------------------
+- Light weight scripting language
+- introduced in the year 1995.
+- used in most of famous test automation tools - WebDriverIO, Cypress, PlayWright, performance testing
+-javascript is not  Strict type language
+-OpenSource
+- Microsoft
+- Regression testing, API testing, Mobile Browser application testing
+
+
+Javascripts
+----------------
+1. basic - print msg....
+2. DataTypes...
+3. variables, naming convention for variables...
+4. Arithmetic operators
+5. unary operators
+6. Equality operators
+7. typeOf
+8. if...else, while loop, forloop,break, continue
+9. userdefined functions- Named function, Arrow function, Ananymous function
+10. Arrays - single dimention, Two Dim
+11. var, let , const
+12. class and object
+13. interchange reference of an object
+14. method overloading/ method over ridding
+15. how to access variables, class , method in the other javascript files -import, export
+16. inheritenct
+17. Exception Handling - finally
+18. Work with json file
+19.String methods
+
+
+
+20. Work with excel
+
+
+Set up JavaScript Environment
+--------------------------------
+https://nodejs.org/en/download/prebuilt-installer/current
+
+1. install nodejs
+2. create environment variable
+NODE_HOME 
+C:\Program Files\nodejs
+edit path and click on new and paste C:\Program Files\nodejs\node_modules\npm\bin
+
+cmd>node --version
+cmd>npx --version
+
+
+VScode javascript editor
+visual studio code
+-----------------------
+https://apps.microsoft.com/detail/xp9khm4bk9fz7q?launch=true&mode=full&hl=en-us&gl=in&ocid=bingwebsearch
+
+variable is a container which hold the value.
+Note: there is no need of declaring a variable with dataTypes  in javascript
+in javascript variables are self variant.
+
+3 DataTypes in javascripts
+----------------------------------
+
+primitive dataTypes
+----------------------
+1. Number - 2 Bytes of space
+2. String - 8 bytes of space
+3. Boolean - 1 bit 0/1
+
+Non-primitive dataTypes
+------------------------
+1. function
+2. array
+3. object
+4. NaN
+
+
+Naming convention for a variable : variable should always start with character and it allow only _ and $ as 
+special char as first letter in the variable
+
+Arithmetic operators
+------------------------
++ ===> will be used for addition
+- ===> will be used for substraction
+/ ===> division
+% ===> modulus
+* ===> multiplication
+** === for power of  ex: 2**3 = 8
+
+unary operators
+------------------
++ ===> It will be used to convert any primitive data type  to number
+- ===> it will be used to get complimentary of a number
+++ ===> incremental operator
+-- ===> decremental operator
+!= ===> logical complimentary operator
+
+
+var, let, const
+
+Equality operators
+
+-------------------------
+== --->always compare only values
+=== ---> it will compare both values and dataTypes
+
+!=  not equal
+<  lessthan
+>  greater than
+<= Lessthan or equal to
+>= Greater than or equal
+
+
+
+
+
+
+
+
+
