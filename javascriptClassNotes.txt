@@ -138,5 +138,45 @@ node Test1.js
 2. Arrow Function
 3. Ananymous function
 
-Lunch break upto 2pm
+
+
+
+2nd day 
+
+
+Class and Object
+--------------------
+Class: 
+1. class is a template to create an object
+2. class is blueprint to create an object
+3. Class is a collection of Attributes and methods (standard definition)
+
+attributes
+-------------
+name
+religion
+looks
+color
+qualification
+caste
+
+method: action perfomed
+---------------------------
+walk
+run
+speak
+
+Srinivas is an object for HB
+Object is an instance of the class
+
+
+polymorphism -( javascript dont support polymorphism)
+
+OpenMobile- default
+OpenMobile - pattern
+OpenMobie - pattern, password
+OpenMobile - faceRecg
+OpenMobile- pattern, password, faceRecg
+
+Note: javascript does not support method overloading it always override.
 

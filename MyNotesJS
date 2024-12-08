@@ -21,6 +21,12 @@ cmd>node --version
 
 
 
+// object creation formate in js
+
+Formate : type objName = new ClassName();
+Example : var 	a 	 = new Car();
+
+
 javascript
 ------------------
 - Light weight scripting language
