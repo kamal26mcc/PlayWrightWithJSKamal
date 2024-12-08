@@ -2,6 +2,8 @@ Set up JavaScript Environment
 --------------------------------
 https://nodejs.org/en/download/prebuilt-installer/current
 
+---------------------------------------------------------------------------
+
 Environment setup 
 
 1. install nodejs
@@ -19,18 +21,21 @@ Environment setup
 
 cmd>node --version			
 
-
+---------------------------------------------------------------------------
 
 // object creation formate in js
 
 Formate : type objName = new ClassName();
 Example : var 	a 	 = new Car();
 
-
+---------------------------------------------------------------------------
 
 work with excel need package
 // run this below commant 
 npm i exceljs
+---------------------------------------------------------------------------
+eppavum location excel sheet location ippatithan mentione pannanum below "\\" potanum below 
+C:\\Users\\HP\\Documents\\MyLearningAutomation\\JS practice kamal\\PlayWrightWithJSKamal\\Day1\\Fso\\TestData.xlsx
 
 javascript
 ------------------
