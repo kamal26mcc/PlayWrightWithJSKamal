@@ -6,7 +6,7 @@ class Car{
     price;
     wheels;
      start(){
-        console.log("Car starts")
+        console.log("Car starts Kamal")
     }
     stop(){
         console.log("Car stops")

@@ -1,0 +1,14 @@
+{
+    "cName":"Synchron",
+    "totalemp":200000,
+    "credential":{
+       "ename":"srinivas",
+       "pwd":"123x123"
+    },
+    "Branches":[
+       {"location":"Bangalore","area":"Ecity"},
+       {"location":"pune","area":"Hinjewadi"},
+       {"location":"Chennai","area":"Koyambadu","phone":"123456"}
+    ]
+    
+   }

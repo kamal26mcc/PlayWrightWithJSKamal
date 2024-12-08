@@ -27,6 +27,11 @@ Formate : type objName = new ClassName();
 Example : var 	a 	 = new Car();
 
 
+
+work with excel need package
+// run this below commant 
+npm i exceljs
+
 javascript
 ------------------
 - Light weight scripting language
