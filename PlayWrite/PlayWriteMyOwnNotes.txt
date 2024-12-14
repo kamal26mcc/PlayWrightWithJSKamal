@@ -1,0 +1,18 @@
+Environment setup
+
+-------------------------------------------------------------------------
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+
+-----------------------
+1. install nodeJs
+https://nodejs.org/en/download/prebuilt-installer/current
+
+2. NODE_HOME
+C:\Program Files\nodejs
+(in environment variables)
+
+3. edit path variable --->new -> paste C:\Program Files\nodejs\node_modules\npm\bin
+
+4.cmd> node --version , npm --version
