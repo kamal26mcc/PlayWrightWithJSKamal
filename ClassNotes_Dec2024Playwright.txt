@@ -1,0 +1,229 @@
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+PlayWright
+--------------
+OpenSource from Microsoft
+WebApplication, APIs, 
+Java, Python, C#, and NodeJs- JavaScript/Typescript
+Functional and Regression Testing
+
+
+Advantages of PlayWright
+-------------------------
+1. Easy setup and configuration
+2. Cross Browser Testing tool.
+3. Cross platform testing tool.
+4. Supports parallel Browser Testing
+5. Built-in reports -JSON, Junit and Html Reports
+6. Debugging is very easy.
+7. Supports chromium family (chrome and edge), firefox, WebKit(safari)
+
+Limitations of playwright
+-------------------------
+1. No Support for IE11
+2. Playwright doesn't support native and Hybrid mobile apps
+3. No integration of AI to playwright
+4. No Community support for playwright
+(healenium.io)
+
+nodejs above 18 version must have to work with playwright
+
+Environment setup
+-----------------------
+1. install nodeJs
+https://nodejs.org/en/download/prebuilt-installer/current
+
+2. NODE_HOME
+C:\Program Files\nodejs
+(in environment variables)
+
+3. edit path variable --->new -> paste C:\Program Files\nodejs\node_modules\npm\bin
+
+4.cmd> node --version , npm --version
+
+
+
+
+5. Create folder C://playwrightWorkSpace//Dec2023_Playwright_WeekEnd_Synechron
+
+5. went to folder and opened cmd from the folder
+       cmd>npm init playwright@latest
+
+
+
+Automation tools with JavaScript
+------------------------------------
+1. Spec File
+2. configuration file
+
+6. Visual studio code: 
+https://code.visualstudio.com/download
+
+Note: In playwright spec files executed by default in headless
+Note: In playwright by default testspec files will be executed parallely
+
+command to execute script in playwright : npx playwright test --headed
+
+cmd>npx playwright test file.spec.js
+
+
+test template
+test.only
+test.skip
+
+
+
+Global variables (fixtures) - browser, page
+
+
+JavaScript is asynchronous in nature
+
+
+Execution status of a Line of code called as Promises.
+
+3 types of promises
+
+a. pending
+b. rejected
+c. resolved
+
+
+
+Ts: Add an item to cart
+
+Tc01: Add an item to Cart from movieAndTv Department
+
+OpenBrowser
+Enter url "https://www.amazon.com"
+click on Todaysdeal
+click on seemore
+select movieandtv department
+click on first item
+click on Add2cart
+verifysucessmsg
+CloseBrowser
+
+Tc02: Add an item to Cart from Software Department
+
+OpenBrowser
+Enter url "https://www.amazon.com"
+click on Todaysdeal
+click on seemore
+select Software department
+click on first item
+click on Add2cart
+verifysucessmsg
+CloseBrowser
+
+
+Tc03: Add an item to Cart from Toysandgames Department
+
+OpenBrowser
+Enter url "https://www.amazon.com"
+click on Todaysdeal
+click on seemore
+select Toysandgames department
+click on first item
+click on Add2cart
+verifysucessmsg
+CloseBrowser
+
+
+
+
+
+Assertion/ expect : is a feature in testing tool to compare expected values with actual values
+both -matching -pass
+both -mis-matching -Fail
+
+
+2 types of expect/Assertions in playwright
+
+1 Hard Assert
+2 Soft Assert
+
+
+
+Playwright recognizes an element in the page by using 2 locators
+
+1. xpath
+2. Css
+
+
+xpath -Extended path - Address of an object in the webpage
+
+
+2 types of xpath 
+-------------------
+a. Absolute xpath / full xpath / complete xpath
+html/body/div[1]/header/div/div[4]/div[2]/div/div/a[1]
+
+b. Relative xpath / short xpath
+//*[@id="nav-xshop"]/a[1]
+
+
+Default timeout for loading an element is 30000msec. XXXXXXXX
+
+Default timeout for performing an action on an element is 30000msec.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. what are fixtures used in playwright?
+2. what are promises? How did you handle promises in playwright?
+3. what is await/async used in playwright?
+4. What is the difference between hard Assert and softAssert
+5. what is default timeout for expect/Assertion in playwright?5000msec 
+6. how do you increase or decrease expect timeout?
+expect: {
+  timeout:8000
+ },
+7. what is the Default timeout for performing an action on an element?  30000msec.
+8. how to increase ?
+ timeout:2 * 30000,
+
+
+//input[@data-action-type='DISMISS']
+
+
+
+
+
+npx playwright test
+    Runs the end-to-end tests.
+
+  npx playwright test --ui
+    Starts the interactive UI mode.
+
+  npx playwright test --project=chromium
+    Runs the tests only on Desktop Chrome.
+
+  npx playwright test example
+    Runs the tests in a specific file.
+
+  npx playwright test --debug
+    Runs the tests in debug mode.
+
+  npx playwright codegen
+    Auto generate tests with Codegen.
+
+We suggest that you begin by typing:
+
+    npx playwright test
+
